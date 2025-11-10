@@ -126,8 +126,18 @@ def get_service(lineid):
         x = re.search(r"Premium \d+GB", lineid)
         if x[0] is not None:
             return x[0]
+        elif "DBaaS" in lineid:
+            return "DBaaS - " + x[0]
         else:
             return "Premium"
+    elif "Shared" in lineid:
+        x = re.search(r"Dedicated \d+GB", lineid)
+        if x[0] is not None:
+            return x[0]
+        elif "DBaaS" in lineid:
+            return "DBaaS - " + x[0]
+        else:
+            return "Shared"
     elif "Longview" in lineid:
         return "Longview"
     elif "VPC" in lineid:
