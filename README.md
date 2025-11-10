@@ -12,7 +12,7 @@ This requires five variables to be set in the environment.
 * DAYS - Number of days from today that you want to include in billing Example: `30`
 
 ## CloudZero Setup
-
+Go to your CZ settings, select Cloud Integrations, Add Connections (upper right - red button) and then Custom
 ![Screenshot 2025-11-10 at 10 29 18 AM](https://github.com/user-attachments/assets/4dccb006-66c9-4438-8ca1-191882a7f281)
 
 ![Screenshot 2025-11-10 at 10 40 53 AM](https://github.com/user-attachments/assets/8b79eb35-b21b-421a-a882-f587bebed37f)
