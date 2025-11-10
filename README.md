@@ -25,7 +25,7 @@ Click the connection you just created in the list. The "Connection ID" is used i
 ![Screenshot 2025-11-10 at 10 43 28 AM](https://github.com/user-attachments/assets/16636f7e-ae61-4cd1-b9a6-b70cb76630d9)
 
 ## Akamai Setup
-
-![Screenshot 2025-11-10 at 10 53 57 AM](https://github.com/user-attachments/assets/4f624ced-4c35-4d00-9019-8ee341456afa)
-![Screenshot 2025-11-10 at 10 53 32 AM](https://github.com/user-attachments/assets/66871d19-02fc-4e10-9f47-1e639daa70ca)
 ![Screenshot 2025-11-10 at 10 53 25 AM](https://github.com/user-attachments/assets/552fc946-05b7-433f-bc74-b662c33c9d67)
+![Screenshot 2025-11-10 at 10 53 32 AM](https://github.com/user-attachments/assets/66871d19-02fc-4e10-9f47-1e639daa70ca)
+![Screenshot 2025-11-10 at 10 53 57 AM](https://github.com/user-attachments/assets/4f624ced-4c35-4d00-9019-8ee341456afa)
+
