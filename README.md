@@ -11,3 +11,12 @@ This requires five variables to be set in the environment.
 * CZKEY - Your CZ API key
 * DAYS - Number of days from today that you want to include in billing Example: `30`
 
+## CloudZero Setup
+
+![Screenshot 2025-11-10 at 10 29 18 AM](https://github.com/user-attachments/assets/4dccb006-66c9-4438-8ca1-191882a7f281)
+
+![Screenshot 2025-11-10 at 10 40 53 AM](https://github.com/user-attachments/assets/8b79eb35-b21b-421a-a882-f587bebed37f)
+
+![Screenshot 2025-11-10 at 10 42 33 AM](https://github.com/user-attachments/assets/03a858d2-1736-4311-87d5-5228312af87c)
+
+![Screenshot 2025-11-10 at 10 43 28 AM](https://github.com/user-attachments/assets/16636f7e-ae61-4cd1-b9a6-b70cb76630d9)
