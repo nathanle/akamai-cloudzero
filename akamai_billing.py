@@ -1,17 +1,11 @@
 
-import csv
 import re
-import decimal
-import getpass
-import json
-import sys
 import os
-import argparse
 from datetime import datetime
 import pandas as pd
 pd.set_option('display.max_rows', None)
-
 import requests
+
 ####
 #Requires following ENV Variables:
 apiversion = os.environ.get("APIVERSION")
