@@ -99,6 +99,8 @@ def get_service(lineid):
         return "Storage Volume"
     elif "Object Storage" in lineid:
         return "Object Storage"
+    elif "Images Storage" in lineid:
+        return "Images Storage"
     elif "Linode" in lineid:
         x = re.search(r"Linode \d+GB", lineid)
         if x[0] is not None:
