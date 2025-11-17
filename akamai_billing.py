@@ -54,7 +54,7 @@ def get_invoice_detail(id):
 
     if data["pages"] == 1:
 
-        return data["data"]
+        return invoice_detail(data["data"])
     else:
         page = 1
         while page <= data["pages"]:
@@ -66,7 +66,7 @@ def get_invoice_detail(id):
                 data["data"].append(x)
             page += 1
 
-        return data["data"]
+        return invoice_detail(data["data"])
 
 def get_invoice_by_date(data, d):
     df = pd.DataFrame(data)
@@ -186,8 +186,7 @@ if __name__ == "__main__":
 
     for i in invoices:
         r = get_invoice_detail(i)
-        d = invoice_detail(r)
-        relabel = relabel_dataframe(d)
+        relabel = relabel_dataframe(r)
         cbf_rows = process_usage_data(relabel, i)
         #print(cbf_rows)
         upload_to_anycost(cbf_rows)
