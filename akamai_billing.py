@@ -56,7 +56,7 @@ def get_invoice_detail(id):
 
         return invoice_detail(data["data"])
     else:
-        page = 1
+        page = 2
         while page <= data["pages"]:
             print("Page {} of {}".format(page, data["pages"]))
             url = "https://api.linode.com/{0}/account/invoices/{1}/items?page={2}".format(apiversion, id, page)
